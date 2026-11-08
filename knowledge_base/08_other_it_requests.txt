@@ -1,0 +1,46 @@
+IT SUPPORT KNOWLEDGE BASE
+Category: Other
+Document: General IT Requests and Triage Guidance
+Version: 1.0
+
+PURPOSE
+This document helps triage requests that do not clearly fit network, hardware, software, database, security, access management, or email categories.
+
+EXAMPLES
+- Request for a new approved application.
+- Request for a laptop, monitor, or other IT equipment.
+- Request for general technical guidance.
+- Request for a system configuration change.
+- A ticket with insufficient information to identify the issue.
+
+INITIAL TRIAGE
+1. Identify what the requester is trying to achieve.
+2. Determine whether the request is an incident (something is broken) or a service request (something new is needed).
+3. Ask for the business reason, required date, affected system, and impact.
+4. Check whether a standard request form or approval process exists.
+5. If the issue description is unclear, request specific missing information rather than guessing.
+
+ROUTING GUIDANCE
+- Equipment and device requests: IT Helpdesk or Hardware Support.
+- Standard software requests: IT Helpdesk or Application Support, subject to approval.
+- System configuration requests: relevant system owner.
+- Unclear requests: IT Helpdesk for clarification and initial review.
+- Any suspected security issue: Security Team, regardless of the apparent category.
+
+PRIORITY GUIDANCE
+Priority should be based on business impact and urgency, not only on words such as "urgent" in the ticket.
+- P1 Critical: widespread outage or critical business service unavailable.
+- P2 High: significant business function disrupted with limited workaround.
+- P3 Medium: individual or limited impact with a workaround.
+- P4 Low: routine request, information request, or minor inconvenience.
+
+HUMAN REVIEW
+A human support engineer must review requests involving approvals, procurement, privileged access, production changes, unclear business impact, or actions that could affect other users.
+
+RECOMMENDED TICKET DETAILS
+- Desired outcome
+- System, device, or service involved
+- Business reason
+- Required completion date
+- Number of users affected
+- Relevant approval or request reference, if applicable

@@ -1,0 +1,42 @@
+IT SUPPORT KNOWLEDGE BASE
+Category: Security
+Document: Security Incident and Suspicious Activity Reporting
+Version: 1.0
+
+PURPOSE
+This document describes how to recognize and report possible security incidents. Security reports must be handled carefully and promptly.
+
+POSSIBLE SECURITY INDICATORS
+- A user reports a suspicious email, attachment, or link.
+- Unexpected multi-factor authentication prompts appear.
+- An account may have been accessed by someone else.
+- A device is reported lost or stolen.
+- Malware or ransomware warnings appear.
+- Files are unexpectedly encrypted, renamed, or inaccessible.
+- A user notices unfamiliar login activity.
+
+IMMEDIATE USER GUIDANCE
+1. Do not click suspicious links or open unexpected attachments.
+2. Do not reply to suspected phishing messages or forward them to colleagues.
+3. Report the message using the organization's approved phishing-reporting method.
+4. If credentials may have been exposed, contact the Security Team through an approved channel.
+5. If ransomware or active malware is suspected, stop using the affected device and follow the organization's incident-response instructions. Do not attempt cleanup or delete evidence.
+6. Record the time, device, account, and observed symptoms without collecting unnecessary sensitive information.
+
+PRIORITY AND ESCALATION
+Treat suspected account compromise, ransomware, malware execution, data exposure, or unauthorized access as urgent. Escalate directly to the Security Team according to the incident-response process. Do not delay escalation while performing routine troubleshooting.
+
+SECURITY AND SAFETY
+Never ask a user to share passwords, one-time passcodes, recovery codes, or private keys. Do not promise that an account or device is safe based only on a ticket description. Do not investigate beyond authorized procedures. Preserve relevant evidence.
+
+RECOMMENDED TICKET DETAILS
+- Type of suspected incident
+- Time first observed
+- Affected account or asset identifier, where permitted
+- Whether a link or attachment was opened
+- Exact warning or message
+- Actions already taken
+- Contact method for safe follow-up
+
+HANDLING NOTE
+A security incident should be routed to the Security Team even if the initial description is incomplete. Human security review is required.

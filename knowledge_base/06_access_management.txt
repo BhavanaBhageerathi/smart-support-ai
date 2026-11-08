@@ -1,0 +1,45 @@
+IT SUPPORT KNOWLEDGE BASE
+Category: Access Management
+Document: Account, Password and Permission Support
+Version: 1.0
+
+PURPOSE
+This document covers common account access, password, account lockout, and permission requests.
+
+COMMON SYMPTOMS
+- User cannot sign in.
+- Account is locked.
+- Password reset is required.
+- Multi-factor authentication is not working.
+- User can sign in but cannot access a folder or application.
+- Access is requested for a new role or project.
+
+INITIAL CHECKS
+1. Confirm the application or service the user is trying to access.
+2. Record the exact error message and time it occurred.
+3. Check whether the user can sign in to other approved services.
+4. Ask whether the user recently changed their password or enrolled a new MFA device.
+5. For a permission request, confirm the business reason and the resource owner who can approve access.
+6. Direct users to the organization's official password-reset or account-recovery portal.
+
+LIKELY CAUSES
+- Incorrect username or password.
+- Account lockout after repeated failed attempts.
+- Expired password or account.
+- MFA device or enrollment issue.
+- Missing group membership or role permission.
+- Approval or provisioning not completed.
+
+ESCALATION
+Assign password, account lockout, and MFA problems to IT Helpdesk or the designated Identity and Access Management team. Route application-specific authorization issues to the relevant application owner. Requests for privileged access require the formal approval process.
+
+SECURITY AND SAFETY
+Never ask users to send passwords, one-time codes, recovery codes, or MFA approval prompts to support staff. Do not bypass MFA or grant access based solely on a ticket. Access changes must follow identity verification, least privilege, and approval procedures.
+
+RECOMMENDED TICKET DETAILS
+- Username or approved employee identifier
+- Application or resource name
+- Exact error message
+- Whether sign-in works elsewhere
+- Whether password or MFA settings recently changed
+- Business justification and resource owner approval for access requests

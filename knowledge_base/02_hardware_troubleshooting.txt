@@ -1,0 +1,48 @@
+IT SUPPORT KNOWLEDGE BASE
+Category: Hardware
+Document: Desktop, Laptop and Peripheral Troubleshooting
+Version: 1.0
+
+PURPOSE
+This document covers basic checks for hardware faults involving computers and peripherals.
+
+COMMON SYMPTOMS
+- Laptop or desktop does not power on.
+- Device becomes unusually hot or shuts down unexpectedly.
+- Keyboard, mouse, monitor, webcam, or docking station is not detected.
+- Printer or other peripheral does not respond.
+- Screen is blank or displays unusual artifacts.
+
+INITIAL CHECKS
+1. Ask whether the device has physical damage, liquid exposure, or a burning smell.
+2. Check that the power cable, adapter, dock, and monitor cables are firmly connected.
+3. Confirm that the power outlet is working using an approved method.
+4. For a blank monitor, check the monitor power, input source, brightness, and video cable.
+5. For a keyboard or mouse, try another approved USB port or reconnect the wireless receiver.
+6. Restart the device only if there are no signs of electrical or physical damage.
+
+WHEN NOT TO CONTINUE
+Stop troubleshooting and escalate immediately if there is:
+- Smoke, sparks, burning smell, battery swelling, or liquid damage.
+- A damaged power adapter or exposed wiring.
+- Unusual clicking or grinding noises from a storage device when data may be at risk.
+
+LIKELY CAUSES
+- Loose or faulty cable or power adapter.
+- Failed peripheral or port.
+- Battery or charging problem.
+- Display input or cable issue.
+- Hardware component failure or overheating.
+
+ESCALATION
+Assign to Hardware Support when basic connection checks do not resolve the issue, a component appears faulty, or physical inspection or replacement is required.
+
+SECURITY AND SAFETY
+Users must not open device enclosures or attempt component replacement unless authorized. Do not recommend opening a power supply or swollen battery. Preserve the device and escalate safety-related symptoms immediately.
+
+RECOMMENDED TICKET DETAILS
+- Device make, model, and asset tag
+- Peripheral involved
+- Whether power indicators are visible
+- Recent drops, spills, updates, or hardware changes
+- Error lights, beep codes, or exact symptoms

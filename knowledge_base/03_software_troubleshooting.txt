@@ -1,0 +1,46 @@
+IT SUPPORT KNOWLEDGE BASE
+Category: Software
+Document: Business Software and Application Troubleshooting
+Version: 1.0
+
+PURPOSE
+This document provides first-line guidance for approved business software that crashes, fails to launch, or behaves unexpectedly.
+
+COMMON SYMPTOMS
+- Application does not open or closes unexpectedly.
+- Application freezes or responds slowly.
+- An error appears after a recent update.
+- A document cannot be opened or saved.
+- A user reports that a feature is missing.
+
+INITIAL CHECKS
+1. Record the application name, version, operating system, and exact error message.
+2. Check whether the issue affects one user or multiple users.
+3. Ask whether the problem began after an update, installation, or configuration change.
+4. Close and reopen the application, after ensuring unsaved work is protected.
+5. Restart the device if appropriate and permitted.
+6. Check whether the application is listed as an approved application in the company's software catalogue.
+7. Check the vendor or internal service status page if one is available.
+
+LIKELY CAUSES
+- Corrupted local application cache or user profile.
+- Incomplete or failed update.
+- Unsupported application version.
+- Missing dependency or configuration.
+- Application service outage.
+- Insufficient device resources.
+
+ESCALATION
+Assign to Application Support when the issue persists after basic checks, affects multiple users, follows a deployment, or requires logs, repair, rollback, or configuration changes.
+
+SECURITY AND SAFETY
+Do not download installers from unofficial websites. Do not ask users to disable antivirus or endpoint protection. Software installation and administrator-level changes require authorization.
+
+RECOMMENDED TICKET DETAILS
+- Application name and version
+- Operating system and device
+- Exact error text or error code
+- Steps that reproduce the issue
+- Time the issue started
+- Recent updates or changes
+- Whether other users are affected

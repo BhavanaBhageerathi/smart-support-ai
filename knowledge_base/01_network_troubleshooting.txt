@@ -1,0 +1,53 @@
+IT SUPPORT KNOWLEDGE BASE
+Category: Network
+Document: Network Connectivity Troubleshooting
+Version: 1.0
+
+PURPOSE
+This document provides first-line troubleshooting guidance for common office network connectivity problems.
+
+COMMON SYMPTOMS
+- A computer cannot access internal websites or shared drives.
+- Wi-Fi shows connected but internet access is unavailable.
+- Network connection drops intermittently.
+- A user can access some websites but not internal applications.
+
+INITIAL CHECKS
+1. Confirm whether the issue affects one user, several users, or an entire office location.
+2. Check whether the device is connected to the correct corporate Wi-Fi network or wired network.
+3. Ask the user to check whether airplane mode is disabled.
+4. Ask the user to disconnect and reconnect to the network.
+5. Check whether other websites and internal applications are reachable.
+6. If permitted by company procedure, ask the user to restart the network adapter or device.
+
+BASIC WINDOWS DIAGNOSTICS
+- Run ipconfig /all to inspect network configuration.
+- Run ipconfig /release followed by ipconfig /renew only when appropriate and permitted.
+- Run ipconfig /flushdns when a DNS cache issue is suspected.
+- Run ping to test reachability to an approved internal gateway or known host.
+- Run nslookup to check whether a hostname resolves to an IP address.
+
+LIKELY CAUSES
+- Weak Wi-Fi signal or access point issue.
+- Incorrect IP configuration or DHCP lease issue.
+- DNS resolution failure.
+- Damaged network cable or disabled adapter.
+- Network outage affecting a building, VLAN, or office.
+
+ESCALATION
+Escalate to Network Support when:
+- Multiple users or a whole location are affected.
+- The network gateway is unreachable.
+- Connectivity repeatedly drops after basic checks.
+- Network equipment, firewall, routing, or switch configuration may be involved.
+
+SECURITY AND SAFETY
+Do not ask users to disable endpoint protection or firewall controls. Do not change router, switch, firewall, or DNS settings without authorization. Record the affected location, device, time the issue started, error messages, and scope of impact.
+
+RECOMMENDED TICKET DETAILS
+- User and department
+- Device name and operating system
+- Wired or Wi-Fi connection
+- Office location
+- Whether other users are affected
+- Exact error message and time observed

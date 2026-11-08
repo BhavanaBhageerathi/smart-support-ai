@@ -1,0 +1,47 @@
+IT SUPPORT KNOWLEDGE BASE
+Category: Email
+Document: Corporate Email and Calendar Troubleshooting
+Version: 1.0
+
+PURPOSE
+This document provides first-line guidance for common corporate email and calendar issues.
+
+COMMON SYMPTOMS
+- Email messages are not being sent or received.
+- Email client repeatedly requests a password.
+- Mailbox appears disconnected.
+- Messages are delayed or remain in the Outbox.
+- Calendar invitations or shared calendars are missing.
+- Mailbox storage quota warning appears.
+
+INITIAL CHECKS
+1. Determine whether the issue occurs in the desktop client, webmail, or both.
+2. Check the approved email service status page.
+3. Confirm network connectivity.
+4. Check whether the mailbox is full or has a quota warning.
+5. Ask whether the issue affects one sender, one recipient, or many users.
+6. Record any non-sensitive error code and the time of the failure.
+7. If permitted, close and reopen the mail client or test using the approved webmail interface.
+
+LIKELY CAUSES
+- Email service outage.
+- Network connectivity problem.
+- Mailbox quota exceeded.
+- Incorrect client configuration.
+- Authentication or MFA issue.
+- Message delivery delay, filtering, or recipient address error.
+
+ESCALATION
+Assign to IT Helpdesk for individual client or account issues. Escalate to Messaging or Application Support when multiple users are affected, service status indicates an outage, or mail-flow investigation is required.
+
+SECURITY AND SAFETY
+Do not ask users to share passwords or MFA codes. Treat unexpected attachments, links, and requests for payment or credentials as potential phishing. Use the approved security-reporting process for suspicious messages.
+
+RECOMMENDED TICKET DETAILS
+- Email client and version
+- Whether webmail works
+- Sender and recipient domains, where appropriate
+- Approximate time of the issue
+- Exact error message
+- Whether one or multiple users are affected
+- Whether messages are delayed, rejected, or missing

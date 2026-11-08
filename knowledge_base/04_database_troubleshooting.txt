@@ -1,0 +1,44 @@
+IT SUPPORT KNOWLEDGE BASE
+Category: Database
+Document: Database Connectivity and Query-Service Troubleshooting
+Version: 1.0
+
+PURPOSE
+This document provides first-line guidance for application teams reporting database connection failures or database service problems.
+
+COMMON SYMPTOMS
+- An application reports that it cannot connect to the database.
+- Users receive connection timeout or connection refused errors.
+- Database login fails.
+- Queries are unusually slow.
+- A database-backed application is unavailable.
+
+INITIAL CHECKS
+1. Record the application, environment, database type, server or service name, and time of failure.
+2. Determine whether one user, one application, or multiple applications are affected.
+3. Capture the exact error message and correlation or request ID if available.
+4. Check the approved database or application service status dashboard.
+5. Confirm whether a recent deployment, configuration change, credential rotation, or network change occurred.
+6. Ask the application owner to confirm that the configured database endpoint is correct.
+
+LIKELY CAUSES
+- Database service outage or maintenance.
+- Network path, DNS, or firewall connectivity issue.
+- Expired, rotated, or incorrect credentials.
+- Connection pool exhaustion.
+- Database resource saturation or long-running queries.
+- Application configuration error.
+
+ESCALATION
+Assign to Database Administration when the database service appears unavailable, database resource limits may be reached, query performance has degraded, or database-side investigation is required. Involve Application Support if the failure appears to originate in application configuration or code.
+
+SECURITY AND SAFETY
+Never request or include database passwords, API keys, connection strings containing secrets, or personal data in a ticket. Do not recommend restarting a production database, changing permissions, killing sessions, or running write queries without approval. Use approved monitoring and read-only checks.
+
+RECOMMENDED TICKET DETAILS
+- Environment: development, test, or production
+- Application and database service name
+- Exact error and timestamp
+- Scope of affected users
+- Recent deployments or configuration changes
+- Whether the issue is intermittent or continuous

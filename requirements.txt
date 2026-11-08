@@ -1,0 +1,11 @@
+Django
+djangorestframework
+python-dotenv
+langchain-core
+langchain-openai
+langchain-huggingface
+langchain-chroma
+langchain-text-splitters
+langgraph
+sentence-transformers
+pydantic
